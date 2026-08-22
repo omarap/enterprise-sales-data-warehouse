@@ -15,12 +15,6 @@ The project demonstrates practical database design, data warehousing, data quali
 - Schema creation
 - Initial project structure
 
-Database:
-sales_dw
-├── staging
-├── warehouse
-└── analytics
-
 🟢 **Stage 2 — Staging Layer Complete**
 
 The PostgreSQL database foundation and staging layer have been implemented and tested successfully.
