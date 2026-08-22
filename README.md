@@ -14,6 +14,17 @@ The PostgreSQL database foundation and staging layer have been implemented and t
 
 ---
 
+🟢 **Stage 3 — Data Warehouse 🚧 Complete**
+
+- Customer dimension
+- Product dimension
+- Location dimension
+- Date dimension
+- Sales fact table
+- Star schema
+- Primary and foreign keys
+- Warehouse-level data-quality constraints
+
 ## Overview
 
 The goal of this project is to design and implement an enterprise-style sales data warehouse capable of supporting business reporting, analytics, and decision-making.
