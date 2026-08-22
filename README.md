@@ -1,47 +1,73 @@
 # Enterprise Sales Data Warehouse
 
+A production-style enterprise sales data warehouse built with PostgreSQL, advanced SQL, Python ETL, and Power BI.
+
+The project demonstrates practical database design, data warehousing, data quality, analytics, ETL development, and SQL performance optimization.
+
+---
+
 ## Project Status
 
-🚧 In Development
+🟢 **Stage 2 — Staging Layer Complete**
+
+The PostgreSQL database foundation and staging layer have been implemented and tested successfully.
+
+---
 
 ## Overview
 
-An enterprise-style sales data warehouse built with PostgreSQL and Python.
+The goal of this project is to design and implement an enterprise-style sales data warehouse capable of supporting business reporting, analytics, and decision-making.
 
-The project demonstrates practical SQL development, data warehousing, ETL, analytics, and query performance optimization.
+The system will ingest raw sales data, validate and transform it, load it into a dimensional data warehouse, and provide analytical queries and business intelligence reporting.
 
-## Technology Stack
+---
 
-- PostgreSQL
-- SQL
-- Python
-- Pandas
-- SQLAlchemy
-- Git
-- GitHub
-- Power BI
+## Business Problem
 
-## Architecture
+Businesses often have sales data spread across different operational systems and source files.
 
-The project will use a dimensional data warehouse based on a star schema.
+This can make it difficult to:
 
-## Project Goals
+- Analyze revenue trends
+- Understand customer behavior
+- Identify top-performing products
+- Measure profitability
+- Track sales growth
+- Generate reliable management reports
+- Maintain consistent and high-quality data
 
-- Design a scalable relational data warehouse
-- Build an ETL pipeline
-- Develop advanced SQL analytics
-- Optimize query performance
-- Implement data-quality testing
-- Build a business intelligence dashboard
+This project addresses these challenges by building a centralized sales data warehouse.
 
-## Development Stages
+---
 
-- [ ] Database foundation
-- [ ] Staging layer
-- [ ] Data warehouse
-- [ ] ETL pipeline
-- [ ] Advanced SQL analytics
-- [ ] Query optimization
-- [ ] Testing
-- [ ] Power BI dashboard
-- [ ] Documentation
+## Project Architecture
+
+The planned architecture is:
+
+```text
+                 Source Data
+                     │
+                     ▼
+              CSV / Raw Data
+                     │
+                     ▼
+                  Staging
+                     │
+              Data Validation
+                     │
+              Data Transformation
+                     │
+                     ▼
+             Data Warehouse
+                     │
+              ┌──────┴──────┐
+              │             │
+         Fact Tables    Dimensions
+              │             │
+              └──────┬──────┘
+                     │
+                     ▼
+              Analytics Layer
+                     │
+                     ▼
+                 Power BI
