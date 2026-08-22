@@ -1,0 +1,11 @@
+"date_key","full_date","month_name","quarter_name","year_number","day_name","is_weekend"
+20250101,"2025-01-01","January  ","Q1",2025,"Wednesday",False
+20250102,"2025-01-02","January  ","Q1",2025,"Thursday ",False
+20250103,"2025-01-03","January  ","Q1",2025,"Friday   ",False
+20250104,"2025-01-04","January  ","Q1",2025,"Saturday ",True
+20250105,"2025-01-05","January  ","Q1",2025,"Sunday   ",True
+20250106,"2025-01-06","January  ","Q1",2025,"Monday   ",False
+20250107,"2025-01-07","January  ","Q1",2025,"Tuesday  ",False
+20250108,"2025-01-08","January  ","Q1",2025,"Wednesday",False
+20250109,"2025-01-09","January  ","Q1",2025,"Thursday ",False
+20250110,"2025-01-10","January  ","Q1",2025,"Friday   ",False

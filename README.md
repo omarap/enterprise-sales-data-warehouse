@@ -21,7 +21,7 @@ The PostgreSQL database foundation and staging layer have been implemented and t
 
 ---
 
-🟢 **Stage 3 — Data Warehouse 🚧 Complete**
+🟢 **Stage 3  — Data Warehouse Complete**
 
 - Customer dimension
 - Product dimension
@@ -29,8 +29,14 @@ The PostgreSQL database foundation and staging layer have been implemented and t
 - Date dimension
 - Sales fact table
 - Star schema
-- Primary and foreign keys
-- Warehouse-level data-quality constraints
+- Surrogate keys
+- Primary keys
+- Foreign keys
+- Data-quality constraints
+- Date dimension population
+- Sample warehouse data
+- Referential-integrity validation
+- Revenue and profitability queries
 
 ## Overview
 
