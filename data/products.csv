@@ -1,0 +1,6 @@
+product_id,product_name,category,subcategory,unit_cost,unit_price
+101,Business Laptop,Electronics,Computers,650.00,950.00
+102,Wireless Mouse,Electronics,Accessories,12.00,25.00
+103,Office Monitor,Electronics,Monitors,180.00,275.00
+104,Office Chair,Furniture,Chairs,90.00,160.00
+105,Mechanical Keyboard,Electronics,Accessories,45.00,85.00

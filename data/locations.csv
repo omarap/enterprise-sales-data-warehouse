@@ -1,0 +1,5 @@
+location_id,country,region,city,postal_code
+1,Uganda,Central,Kampala,256
+2,Kenya,Nairobi,Nairobi,00100
+3,Rwanda,Kigali,Kigali,00000
+4,Tanzania,Dar es Salaam,Dar es Salaam,11101

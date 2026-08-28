@@ -32,5 +32,9 @@ CREATE TABLE IF NOT EXISTS warehouse.dim_customer (
         PRIMARY KEY (customer_key),
 
     CONSTRAINT uq_dim_customer_customer_id
-        UNIQUE (customer_id)
+        UNIQUE (customer_id),
+    
+    CONSTRAINT fk_dim_customer_location
+    FOREIGN KEY (location_key)
+    REFERENCES warehouse.dim_location(location_key)
 );
